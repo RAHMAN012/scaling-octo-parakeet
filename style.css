@@ -1,0 +1,161 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+body{
+    background-color: burlywood;
+}
+.main-section{
+   max-height: 100vh;
+   background-color: hsl(193, 100%, 96%);
+   background-image: url(/images/bg-hero-desktop.png)  ;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 2.75rem;
+}
+header img{
+    max-height: 2.5rem;
+}
+.btn{
+    color: #333;
+    text-decoration: none;
+    background-color:#fff;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    border-radius: 30px;
+    padding:0.625rem 1.87rem;
+    transition: all 0.5s ease-in;
+}
+.btn:hover{
+    color: #fff;
+    background-color: black;
+}
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 8rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+.hero-section img{
+  max-height: 30rem;
+  padding-right: 4rem;
+}
+.hero{
+    padding-top: 2rem;
+    max-width: 30rem;
+    
+}
+.hero h1{
+    padding-bottom: 1.75rem;
+    font-size: 2.5rem;
+}
+.hero p{
+    padding-bottom: 3rem;
+       
+    
+}
+.btn-hero {
+    text-decoration: none;
+    color: #fff;
+    background-color: hsl(322, 100%, 66%);
+    padding:0.625rem 2.5rem ;
+    border-radius: 30px;
+    transition: all 0.5s ease-in;
+    border:2px solid transparent;
+}
+.btn-hero:hover{
+    color: hsl(322, 100%, 66%);
+  border: 2px solid hsl(322, 100%, 66%) ;
+  background-color: transparent;
+}
+
+main{
+    min-height: 220vh;
+    background-color: #fff;
+    padding-top: 1rem;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 8rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff;
+    margin: 4rem 3rem;
+    border-radius: 15px;
+    box-shadow: 2px 0px 5px 9px rgba(242,225,225,0.75);
+    -webkit-box-shadow: 2px 0px 5px 9px rgba(242,225,225,0.75);
+    -moz-box-shadow: 2px 0px 5px 9px rgba(242,225,225,0.75);
+}
+.main img{
+   max-height: 20rem;
+}
+.card h1{
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    font-size: 2.75rem;
+    font-weight: 600;
+}
+.card p{
+    font-size: 1.56rem;
+    font-weight: 200;
+}
+footer{
+  height: 50vh;
+  background-color:hsl(192, 100%, 9%);
+}
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+    padding:3rem 3rem 0.3rem 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-seri f;
+    font-weight: 600;
+    color: #fff;
+}
+.footer-section p{
+    padding-top: 15px;
+    padding-left:10px ;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+}
+.about a{
+    text-decoration: none;
+    color: #fff;
+    padding: 0.625rem 0.3rem;
+    transition: all 0.5s ease-in;
+    font-weight: 400;
+}
+.about a:hover{
+   color: aqua;
+   text-decoration: underline;
+}
+.icons i{
+    margin: 0.125rem 0.625rem;    
+    background-color: transparent;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 35px;
+    transition: all 0.5s ease-in;
+}
+.icons i:hover{
+    color:aqua;
+    border: 1px solid aqua;
+}
+.copy{
+    text-align: right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:1.12rem;
+    font-weight: 600;
+    padding-right: 30px;
+    color: #fff;
+}
